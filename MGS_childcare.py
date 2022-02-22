@@ -24,7 +24,7 @@ choice = 0
                       pickUp()
 
                 elif choice == 3:
-          calcCost()
+                    calcCost()
 
                 elif choice==4:
                       printRoll()
