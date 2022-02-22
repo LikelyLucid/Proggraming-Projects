@@ -15,7 +15,7 @@ print("
     if:
     dropOff()
     elif choice == 2:
-    picklJp()
+    pickup()
     elif choice == 3:
     calcCost()
     elif
