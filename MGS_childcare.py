@@ -24,9 +24,12 @@ while choice != 5:
 
     elif choice == 2:
         pickUp()
+
     elif choice == 3:
         calcCost()
+        
     elif choice == 4:
         printRoll()
+
     else:
         print("Goodbye")
