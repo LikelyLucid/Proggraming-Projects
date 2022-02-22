@@ -45,5 +45,4 @@ elif choice == 4:
 printRoll()
 
 else:
-
 print("Goodbye")
