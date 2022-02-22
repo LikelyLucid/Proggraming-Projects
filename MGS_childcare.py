@@ -29,5 +29,5 @@ choice = 0
                 elif choice==4:
                       printRoll()
 
-    else:
+                else:
                       print("Goodbye")
