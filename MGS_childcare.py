@@ -38,4 +38,9 @@ while choice != 5:
     else:
         print("Goodbye")
 
-def dropOff()
+def dropOff():
+    print("Drop off a child")
+    print("Please enter the following details")
+    print()
+    name = input("Name: ")
+    age = int(input("Age: "))
