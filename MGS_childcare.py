@@ -22,14 +22,11 @@ while choice != 5:
     if choice == 1:
             dropOff()
 
-        elif choice == 2:
-            pickUp()
-
-        elif choice == 3:
-            calcCost()
-
-        elif choice == 4:
-            printRoll()
-
-        else:
-            print("Goodbye")
+    elif choice == 2:
+        pickUp()
+    elif choice == 3:
+        calcCost()
+    elif choice == 4:
+        printRoll()
+    else:
+        print("Goodbye")
