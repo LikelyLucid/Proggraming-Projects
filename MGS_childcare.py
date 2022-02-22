@@ -3,7 +3,7 @@ You are to design and write a program that will be used by a child day-care cent
 choice = 0
 while choice != 5:
     print(
-        "-----------------------------------------------------------------------")
+        "-------------------------------------------------------------------")
     print("Welcome to MGS Childcare")
     print("What would you like to do? Please choose one of the items below")
     print(
