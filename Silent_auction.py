@@ -19,8 +19,7 @@ highest bid so far is 20
 
 def integer_check(question):
     try:
-        value = int(input(question))
-        return value
+        return int(input(question))
     except ValueError:
         print("Please enter an integer")
         integer_check(question)
