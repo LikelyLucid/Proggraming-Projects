@@ -8,5 +8,7 @@ The program needs a way of being terminated by the user. Build in some prearrang
 When the user stops the input loop, the highest bid should be checked to see if it beat the reserve. If the reserve price is met, the highest bid should be displayed. If not, a message saying the object didn't sell should be displayed.
 an example of the output:
 "What is the auction for? sloth
-What is the reserve price? 30"
+What is the reserve price? 30
+
+"
 """
