@@ -2,8 +2,6 @@
 You are to design and write a program that will be used by a child day-care centre. It will keep track of children throughout the day. There will be many features in the program, but we will take it a step at a time and build each one in turn."""
 
 
-
-
 choice = 0
 while choice != 5:
     print(
@@ -20,7 +18,7 @@ while choice != 5:
     print("5 Exit the system")
     print()
     choice = int(
-          input("Enter your choice (number between 1 and 5): "))
+        input("Enter your choice (number between 1 and 5): "))
     print()
 
     if choice == 1:
@@ -37,6 +35,7 @@ while choice != 5:
 
     else:
         print("Goodbye")
+
 
 def dropOff():
     print("Drop off a child")
