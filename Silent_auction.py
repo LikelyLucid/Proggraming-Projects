@@ -19,6 +19,7 @@ highest bid so far is 20
 
 def integer_check(question):
     try:
+        
 
 
 item = input("What is the auction for? ")
