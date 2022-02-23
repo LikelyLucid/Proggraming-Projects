@@ -11,6 +11,7 @@ an example of the output:
 What is the reserve price? 30
 The auction for the sloth has started !
 what is your bid? 10
-highest bid so far 
+highest bid so far is 10
+what is 
 "
 """
