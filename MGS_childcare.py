@@ -42,4 +42,4 @@ def dropOff():
     print("Please enter the following details")
     print()
     name = input("Name: ")
-    
+    name.capitalize()
