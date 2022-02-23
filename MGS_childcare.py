@@ -63,4 +63,4 @@ def printRoll():
     print("Print roll")
     print("Please enter the following details")
     print()
-    print
+    print("Name\t\tHours")
