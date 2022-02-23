@@ -26,7 +26,7 @@ def pickUp():
 
 def calcCost():
     hours = int(input("Hours: "))
-    cost = hours * HOUR * len(children)
+    cost = hours * HOURLEY_COST * len(children)
     print("Cost: $" + str(cost))
 
 
