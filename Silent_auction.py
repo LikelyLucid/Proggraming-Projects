@@ -16,3 +16,4 @@ what is your bid? 20
 highest bid so far is 20
 "
 """
+item = input("What is the auction for? ")
