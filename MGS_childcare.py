@@ -19,7 +19,7 @@ def pickUp():
     print("Pick up a child")
     print("Please enter the following details")
     print()
-    # try to remove 
+    # try to remove a child from the roll if the child is not in the roll then print an error message
     try:
         name = input("Name: ").capitalize()
         children.remove(name)
