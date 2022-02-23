@@ -30,7 +30,7 @@ def calcCost():
 
 def printRoll():
     print("Print roll")
-    print()
+    print(children)
 choice = 0
 while choice != 5:
     print(
