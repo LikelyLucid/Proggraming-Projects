@@ -44,4 +44,9 @@ def dropOff():
     name = input("Name: ").capitalize()
     children.append(name)
 
-def p
+def pickUp():
+    print("Pick up a child")
+    print("Please enter the following details")
+    print()
+    name = input("Name: ").capitalize()
+    children.remove(name)
