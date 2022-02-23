@@ -41,5 +41,5 @@ def dropOff():
     print("Drop off a child")
     print("Please enter the following details")
     print()
-    name = input("Name: ")
-    name.capitalize()
+    name = input("Name: ").capitalize()
+    
