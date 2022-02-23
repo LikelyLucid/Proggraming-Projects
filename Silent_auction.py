@@ -17,6 +17,7 @@ highest bid so far is 20
 "
 """
 
+
 def integer_check(question):
     try:
         return int(input(question))
