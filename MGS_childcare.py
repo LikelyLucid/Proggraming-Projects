@@ -29,13 +29,13 @@ def pickUp():
         print("Child not found")
 
 
-def calcCost(): #
+def calcCost(): # calculate the cost of childcare
     hours = int(input("Hours: "))
     cost = hours * HOURLEY_COST * len(children)
     print("Cost: $" + str(cost))
 
 
-def printRoll():
+def printRoll(): 
     print("Printing roll\n")
     for child in children:
         print(child)
