@@ -1,6 +1,6 @@
 """
 You are to design and write a program that will be used by a child day-care centre. It will keep track of children throughout the day. There will be many features in the program, but we will take it a step at a time and build each one in turn."""
-
+child
 
 choice = 0
 while choice != 5:
@@ -42,4 +42,3 @@ def dropOff():
     print("Please enter the following details")
     print()
     name = input("Name: ").capitalize()
-    
