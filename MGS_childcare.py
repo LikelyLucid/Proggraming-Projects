@@ -12,6 +12,7 @@ def dropOff():
     print()
     name = input("Name: ").capitalize()
     children.append(name)
+    print
 
 
 def pickUp():
