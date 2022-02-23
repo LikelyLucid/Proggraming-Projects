@@ -19,10 +19,7 @@ highest bid so far is 20
 
 def integer_check(string):
     try:
-        int(string)
-        return True
-    except ValueError:
-        return False
+        
 
 item = input("What is the auction for? ")
 reserve = int(input("What is the reserve price? "))
