@@ -17,3 +17,4 @@ highest bid so far is 20
 "
 """
 item = input("What is the auction for? ")
+re
