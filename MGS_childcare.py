@@ -6,7 +6,7 @@ HOURLEY_COST = 12
 children = []
 
 
-def dropOff():
+def dropOff(): # drop off a child
     print("Drop off a child")
     print("Please enter the following details")
     print()
