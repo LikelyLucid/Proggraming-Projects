@@ -2,6 +2,38 @@
 You are to design and write a program that will be used by a child day-care centre. It will keep track of children throughout the day. There will be many features in the program, but we will take it a step at a time and build each one in turn."""
 children = []
 
+
+def dropOff():
+    print("Drop off a child")
+    print("Please enter the following details")
+    print()
+    name = input("Name: ").capitalize()
+    children.append(name)
+
+
+def pickUp():
+    print("Pick up a child")
+    print("Please enter the following details")
+    print()
+    try:
+        name = input("Name: ").capitalize()
+        children.remove(name)
+    except ValueError:
+        print("Child not found")
+
+
+def calcCost():
+    hours = int(input("Hours: "))
+    cost = hours * 12 * len(children)
+    print("Cost: $" + str(cost))
+
+
+def printRoll():
+    print("Print roll")
+    print("Please enter the following details")
+    print()
+    print("Name\t\tHours")
+
 choice = 0
 while choice != 5:
     print(
