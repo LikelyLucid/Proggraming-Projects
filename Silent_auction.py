@@ -27,4 +27,4 @@ while highest_bid != -1:
         highest_bid = bid
     else:
         print("need a higher bid")
-    print
+    
