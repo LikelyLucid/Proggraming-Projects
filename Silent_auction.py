@@ -22,7 +22,7 @@ def integer_check(question):
         value = int(input(question))
     except ValueError:
         print("Please enter an integer")
-        return integer_check(question)
+        integer_check(question)
 
 
 item = input("What is the auction for? ")
