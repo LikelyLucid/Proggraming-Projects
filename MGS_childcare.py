@@ -32,7 +32,7 @@ def calcCost():
 
 def printRoll():
     print("Print roll")
-    for childre
+    for children in 
 
 
 choice = 0
