@@ -29,7 +29,7 @@ def pickUp():
         print("Child not found")
 
 
-def calcCost():
+def calcCost(): #
     hours = int(input("Hours: "))
     cost = hours * HOURLEY_COST * len(children)
     print("Cost: $" + str(cost))
