@@ -15,7 +15,7 @@ def dropOff():
     print(f"{name} has been added to roll")
 
 
-def pickUp(): 
+def pickUp(): # pick up a child
     print("Pick up a child")
     print("Please enter the following details")
     print()
