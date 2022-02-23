@@ -24,7 +24,7 @@ while choice != 5:
     print()
 
     if choice == 1:
-            dropOff()
+        dropOff()
 
     elif choice == 2:
         pickUp()
