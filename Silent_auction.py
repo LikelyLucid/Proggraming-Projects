@@ -17,7 +17,7 @@ highest bid so far is 20
 "
 """
 
-def integer
+def integer_c
 
 item = input("What is the auction for? ")
 reserve = int(input("What is the reserve price? "))
