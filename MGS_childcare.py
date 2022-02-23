@@ -21,7 +21,7 @@ def pickUp():
     try:
         name = input("Name: ").capitalize()
         children.remove(name)
-        print("{name} removed")
+        print(f"{name} removed")
     except ValueError:
         print("Child not found")
 
