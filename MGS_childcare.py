@@ -27,13 +27,9 @@ def calcCost():
     hours = int(input("Hours: "))
     cost = hours * 12 * len(children)
     print("Cost: $" + str(cost))
-
-
 def printRoll():
     print("Print roll")
     print(children)
-
-
 choice = 0
 while choice != 5:
     print("-------------------------------------------------------------------")
