@@ -21,4 +21,4 @@ reserve = int(input("What is the reserve price? "))
 print(f"The auction for the {item} has started !")
 highest_bid = 0
 bid = 0
-while highest_bid != 
+while highest_bid != -1
