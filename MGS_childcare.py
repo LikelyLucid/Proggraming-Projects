@@ -44,3 +44,4 @@ def dropOff():
     print()
     name = input("Name: ")
     age = int(input("Age: "))
+    hours = int(input("Hours: "))
