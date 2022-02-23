@@ -53,4 +53,5 @@ def pickUp():
         children.remove(name)
     except ValueError:
         print("Child not found")
-def 
+
+def calcCost():
