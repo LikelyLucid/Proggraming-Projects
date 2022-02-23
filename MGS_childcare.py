@@ -59,4 +59,4 @@ def calcCost():
     cost = hours * 12 * len(children)
     print("Cost: $" + str(cost))
 
-def p
+def pr
