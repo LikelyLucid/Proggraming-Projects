@@ -34,6 +34,7 @@ def printRoll():
     print()
     print("Name\t\tHours")
     for child in children:
+        print(child + "\t\t" + str(random.randint(1, 10)))
 choice = 0
 while choice != 5:
     print(
