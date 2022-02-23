@@ -64,5 +64,5 @@ while choice != 5:
     elif choice == 4:
         printRoll()
 
-    else:
+    elif choice == 5:
         print("Goodbye")
