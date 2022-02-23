@@ -30,11 +30,7 @@ def calcCost():
 
 def printRoll():
     print("Print roll")
-    print("Please enter the following details")
-    print()
-    print("Name\t\tHours")
-    for child in children:
-        print(child + "\t\t" + str(random.randint(1, 10)))
+    
 choice = 0
 while choice != 5:
     print(
