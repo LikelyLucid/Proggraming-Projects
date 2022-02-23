@@ -15,7 +15,7 @@ def dropOff():
     print(f"{name} has been added to roll")
 
 
-def pickUp():
+def pickUp(): 
     print("Pick up a child")
     print("Please enter the following details")
     print()
@@ -35,7 +35,7 @@ def calcCost(): # calculate the cost of childcare
     print("Cost: $" + str(cost))
 
 
-def printRoll(): 
+def printRoll(): # print the roll
     print("Printing roll\n")
     for child in children:
         print(child)
