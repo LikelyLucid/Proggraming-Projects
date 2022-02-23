@@ -9,6 +9,18 @@ When the user stops the input loop, the highest bid should be checked to see if 
 an example of the output:
 "What is the auction for? sloth
 What is the reserve price? 30
+The auction for the sloth has
+started !
+Highest
+What is
+Hi ghest
+What is
+bid so far is
+your bid? 25
+bid so far is
+your bid? 35
+$0
+$25
 
 "
 """
