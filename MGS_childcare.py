@@ -55,4 +55,5 @@ def pickUp():
         print("Child not found")
 
 def calcCost():
+    hours = int(input("Hours: "))
     
