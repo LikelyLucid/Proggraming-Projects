@@ -17,4 +17,4 @@ highest bid so far is 20
 "
 """
 item = input("What is the auction for? ")
-re
+reserve = int(input("What is the reserve price? "))
