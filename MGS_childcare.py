@@ -63,6 +63,4 @@ def printRoll():
     print("Print roll")
     print("Please enter the following details")
     print()
-    print("Name\t\tHours")
-    for child in children:
-        print(child + "\t\t" + "
+    print
