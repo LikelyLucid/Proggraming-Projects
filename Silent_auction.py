@@ -38,3 +38,4 @@ while highest_bid != -1:
     else:
         print("need a higher bid")
     print(f"highest bid so far is ${highest_bid}")
+if high
