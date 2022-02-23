@@ -11,7 +11,7 @@ def dropOff():
     print("Please enter the following details")
     print()
     name = input("Name: ").capitalize()
-    children.append(name) # add 
+    children.append(name) # add {name} to the 
     print(f"{name} has been added to roll")
 
 
