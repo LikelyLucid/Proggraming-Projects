@@ -20,7 +20,9 @@ highest bid so far is 20
 def integer_check(question):
     try:
         value = int(input(question))
-    except ValueError
+    except ValueError:
+        print("Please enter an integer")
+        return integer_check(question)
 
 
 item = input("What is the auction for? ")
