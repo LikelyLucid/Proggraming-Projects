@@ -33,7 +33,7 @@ def printRoll():
     print("Please enter the following details")
     print()
     print("Name\t\tHours")
-
+    for child in children:
 choice = 0
 while choice != 5:
     print(
