@@ -31,8 +31,7 @@ def calcCost():
 
 
 def printRoll():
-    print("Printing roll")
-    
+    print("Printing roll\n")
     for child in children:
         print(child)
 
