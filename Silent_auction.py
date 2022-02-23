@@ -6,4 +6,5 @@ The program should start off by asking for the bidding item, and the reserve pri
 The program needs a way of being terminated by the user. Build in some prearranged signal value (e.g. a bid of -1) to end the loop on demand.
 
 When the user stops the input loop, the highest bid should be checked to see if it beat the reserve. If the reserve price is met, the highest bid should be displayed. If not, a message saying the object didn't sell should be displayed.
+an example of the output:
 """
