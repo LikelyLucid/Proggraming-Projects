@@ -19,7 +19,7 @@ def pickUp():
     print("Pick up a child")
     print("Please enter the following details")
     print()
-
+    
     try:
         name = input("Name: ").capitalize()
         children.remove(name)
