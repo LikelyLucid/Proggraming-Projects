@@ -18,6 +18,8 @@ At the end of the day the user will say "no" to more trips, and the system shoul
 name = input("What is your name? ")
 total_time = 0
 average_time = 0
+total_income = 0
+a
 while True:
     print()
     print("Would you like to start a new trip? (yes/no)")
