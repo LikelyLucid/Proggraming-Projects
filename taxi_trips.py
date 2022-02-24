@@ -13,8 +13,7 @@ while True:
         income = 10 + 2 * time
         total_income += income
         average_income.append(income)
-    elif:
-        
+    elif answer == "no":
     else:
         print("Thank you for using the taxi system, {}".format(name))
         break
