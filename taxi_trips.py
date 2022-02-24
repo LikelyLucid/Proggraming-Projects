@@ -33,4 +33,4 @@ while True:
     else:
         break
 
-
+total_average
