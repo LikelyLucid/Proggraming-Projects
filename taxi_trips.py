@@ -17,6 +17,7 @@ At the end of the day the user will say "no" to more trips, and the system shoul
 """
 name = input("What is your name? ")
 total_time = 0
+average_time = 0
 while True:
     print()
     print("Would you like to start a new trip? (yes/no)")
@@ -28,4 +29,3 @@ while True:
     else:
         print(f"Thank you for using the system {name}")
         break
-print(f"the")
