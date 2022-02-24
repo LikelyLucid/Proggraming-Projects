@@ -20,3 +20,4 @@ while True:
 total_average_time = sum(average_time) / len(average_time)
 total_average_time = round(total_average_time, 2)
 
+
