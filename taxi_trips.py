@@ -19,7 +19,7 @@ name = input("What is your name? ")
 total_time = 0
 average_time = []
 total_income = 0
-average_income = 0
+average_income = []
 while True:
     answer = input("Would you like to start a new trip? ")
     if answer.lower() == "yes":
