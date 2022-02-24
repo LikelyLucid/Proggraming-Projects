@@ -13,4 +13,5 @@ At the end of the day the user will say "no" to more trips, and the system shoul
 
 ● Total income for the day
 
-● Average cost of all trip"""
+● Average cost of all trip
+"""
