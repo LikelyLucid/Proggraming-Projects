@@ -27,4 +27,4 @@ while True:
     else:
         print(f"Thank you for using the system {name}")
         break
-print
+print("")
