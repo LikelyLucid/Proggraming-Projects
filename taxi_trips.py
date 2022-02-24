@@ -21,4 +21,10 @@ average_time = 0
 total_income = 0
 average_income = 0
 while True:
-    
+    answer = input("Would you like to start a new trip? ")
+    if answer.lower() == "yes":
+        time = int(input("How long was the trip in minutes? "))
+        total_time += time
+        total_income += 10 + 2 * time
+    else:
+        break
