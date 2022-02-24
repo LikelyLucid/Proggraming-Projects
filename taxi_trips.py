@@ -24,8 +24,5 @@ print("Total time: {} minutes".format(total_time))
 print("Average time: {} minutes".format(total_average_time))
 print("Total income: ${}".format(total_income))
 print("Average income: ${}".format(sum(average_income) / len(average_income)))
-#
-# else:
-#     print("Thank you for using the taxi system, {}".format(name))
-#     break
+
 
