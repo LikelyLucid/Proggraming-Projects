@@ -33,4 +33,5 @@ while True:
     else:
         break
 
-total_average
+total_average_time = sum(average_time) / len(average_time)
+tota
