@@ -14,10 +14,10 @@ while True:
         total_income += income
         average_income.append(income)
     elif answer == "no":
-    else:
         print("Thank you for using the taxi system, {}".format(name))
         break
-
+    else:
+        
 total_average_time = sum(average_time) / len(average_time)
 total_average_time = round(total_average_time, 2)
 # print totals for the day and averages
