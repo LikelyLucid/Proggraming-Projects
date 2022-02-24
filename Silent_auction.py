@@ -14,7 +14,7 @@ bid = 0
 
 while highest_bid != -1:
     try:
-    bid = int(input("what is your bid? "))
+        bid = int(input("what is your bid? "))
     if bid > highest_bid:
         highest_bid = bid
     else:
