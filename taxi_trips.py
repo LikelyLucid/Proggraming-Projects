@@ -34,4 +34,4 @@ while True:
         break
 
 total_average_time = sum(average_time) / len(average_time)
-total_
+total_aver
