@@ -17,4 +17,13 @@ At the end of the day the user will say "no" to more trips, and the system shoul
 """
 name = input("What is your name? ")
 while True:
-    
+    print()
+    print("Would you like to start a new trip? (yes/no)")
+    answer = input("Enter your answer: ")
+    if answer == "yes":
+        minutes = int(input("How many minutes did the trip take? "))
+        cost = 10 + 2 * minutes
+        print(f"The cost of the trip was ${cost}")
+    else:
+        print(f"Thank you for using the system {name}")
+        break
