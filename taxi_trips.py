@@ -1,4 +1,3 @@
-
 name = input("What is your name? ")
 total_time = 0
 average_time = []
