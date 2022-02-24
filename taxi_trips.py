@@ -17,4 +17,4 @@ At the end of the day the user will say "no" to more trips, and the system shoul
 """
 name = input("What is your name? ")
 while True:
-    input
+    i
