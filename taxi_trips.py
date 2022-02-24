@@ -34,4 +34,4 @@ while True:
         break
 
 total_average_time = sum(average_time) / len(average_time)
-total_aver
+total_average_time = round(total_average_time, 2)
