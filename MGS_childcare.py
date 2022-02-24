@@ -32,7 +32,7 @@ def pickUp(): # pick up a child
 def calcCost(): # calculate the cost of childcare
     hours = int(input("Hours: "))
     cost = hours * HOURLEY_COST * len(children)
-    print("Cost: $" + str(cost))
+    print(f"Cost: ${str(cost)}")
 
 
 def printRoll(): # print the roll
