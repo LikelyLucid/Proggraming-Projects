@@ -22,4 +22,13 @@ total_income = 0
 average_income = []
 
 while True:
-    
+    answer = input("Would you like to start a trip? ").lower()
+    if answer == "yes":
+        time = int(input("How many minutes did the trip take? "))
+        total_time += time
+        average_time.append(time)
+        income = 10 + 2 * time
+        total_income += income
+        average_income.append(income)
+    else:
+        break
