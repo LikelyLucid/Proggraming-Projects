@@ -19,15 +19,6 @@ name = input("What is your name? ")
 total_time = 0
 average_time = 0
 total_income = 0
-a
+average_income = 0
 while True:
-    print()
-    print("Would you like to start a new trip? (yes/no)")
-    answer = input("Enter your answer: ")
-    if answer == "yes":
-        minutes = int(input("How many minutes did the trip take? "))
-        cost = 10 + 2 * minutes
-        print(f"The cost of the trip was ${cost}")
-    else:
-        print(f"Thank you for using the system {name}")
-        break
+    
