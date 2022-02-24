@@ -21,3 +21,4 @@ average_time = []
 total_income = 0
 average_income = []
 
+while
