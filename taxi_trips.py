@@ -17,7 +17,7 @@ while True:
         print("Thank you for using the taxi system, {}".format(name))
         break
     else:
-        
+        print("Please enter yes or no")
 total_average_time = sum(average_time) / len(average_time)
 total_average_time = round(total_average_time, 2)
 # print totals for the day and averages
