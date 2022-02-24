@@ -32,3 +32,5 @@ while True:
         average_income.append(income)
     else:
         break
+
+
