@@ -1,5 +1,4 @@
 item = input("What is the auction for? ")
-while item.value()
 reserve = int(input("What is the reserve price? "))
 print(f"The auction for the {item} has started !")
 highest_bid = 0
