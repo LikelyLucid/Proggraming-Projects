@@ -14,6 +14,7 @@ while True:
         total_income += income
         average_income.append(income)
     else:
+        print()
         break
 
 total_average_time = sum(average_time) / len(average_time)
