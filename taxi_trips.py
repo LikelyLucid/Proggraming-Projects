@@ -22,4 +22,4 @@ total_income = 0
 average_income = []
 
 while True:
-    if 
+    
