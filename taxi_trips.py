@@ -28,3 +28,4 @@ while True:
         total_income += 10 + 2 * time
     else:
         break
+    
