@@ -23,4 +23,4 @@ while highest_bid != -1:
 if highest_bid < reserve:
     print(f"The {item} didn't sell")
 else:
-    print(f"the {item} sold successfully")
+    print(f"The {item} sold successfully")
