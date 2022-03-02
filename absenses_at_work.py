@@ -5,4 +5,4 @@ while True:
     if name == "$":
         break
     absent_days = int(input("Enter number of absent days: "))
-    
+    employees[name] = absent_days
