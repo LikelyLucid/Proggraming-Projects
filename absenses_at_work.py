@@ -7,4 +7,4 @@ while True:
     absent_days = int(input("Enter number of absent days: "))
     employees[name] = absent_days
 
-#sort employees 
+#sort employees by number of absent days
