@@ -17,4 +17,4 @@ The program now will print this
 
 4. The names of the people whose period of absence was above the average for the year. (This could be an alphabetical list or a list sorted in descending order of days of absence)"""
 
-ave
+average
