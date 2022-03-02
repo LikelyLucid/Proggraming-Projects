@@ -20,3 +20,4 @@ names_over_average = []
 for name, absent_days in sorted(employees.items()):
     if absent_days > average_days_off:
         names_over_average.append(name)
+print("The names of the people who had more days of absence than the average are: ", names_over_average)
