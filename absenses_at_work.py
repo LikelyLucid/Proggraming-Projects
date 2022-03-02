@@ -16,7 +16,8 @@ print("The name of the person who had the most days of absence is: ", max(employ
 for name, absent_days in employees.items():
     if absent_days == 0:
         print("The name of the person who was not absent at all during the year is: ", name)
-names_over_average = []
-for name, absent_days in sorted(employees.items()):
-    if absent_days > average_days_off:
-        names_over_average.append(name)
+names_over_average = [
+    name
+    for name, absent_days in sorted(employees.items())
+    if absent_days > average_days_off
+]
