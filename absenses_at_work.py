@@ -8,7 +8,7 @@ while True:
     employees[name] = absent_days
 
 """
-The program now will print 
+The program now will print this
 1. The average number of days of absence per year
 
 2. The name of the person who had the most days of absence
