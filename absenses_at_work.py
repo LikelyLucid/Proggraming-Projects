@@ -9,4 +9,4 @@ while True:
 
 #sort employees into alphabetical order
 employees = sorted(employees)
-print()
+print(employees)
