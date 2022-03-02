@@ -8,4 +8,4 @@ while True:
     employees[name] = absent_days
 
 #sort employees into alphabetical order
-employees
+employees_sorted = sorted(employees)
