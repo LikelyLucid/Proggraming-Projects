@@ -8,3 +8,7 @@ while True:
     employees[name] = absent_days
 
 #sort employees by number of absent days
+sorted_employees = sorted(employees.items(), key=lambda x: x[1])
+
+for employee in sorted_employees:
+    print(employee[0], employee[1])
