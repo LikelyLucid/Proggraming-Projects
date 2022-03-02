@@ -6,6 +6,7 @@ while True:
         break
     absent_days = int(input("Enter number of absent days: "))
     employees[name] = absent_days
+
 average_days_off = sum(employees.values()) / len(employees)
 print("The average number of days of absence per year is: ", average_days_off)
 
