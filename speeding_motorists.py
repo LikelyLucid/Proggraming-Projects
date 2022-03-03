@@ -22,6 +22,8 @@ def check_total_speed(speed):
 def interger_checker(question):
     try:
         return int(input(question))
-    except
+    except ValueError:
+        print("Please enter an integer")
+        return interger_checker(question)
 while True:
     name = input("enter the drivers full name: ")
