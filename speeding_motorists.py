@@ -21,21 +21,20 @@ fines:
 
 def check_total_speed(speed):
     if speed < 10:
-        fine = 30
+        return 30
     elif speed < 15:
-        fine = 80
+        return 80
     elif speed < 20:
-        fine = 120
+        return 120
     elif speed < 25:
-        fine = 170
+        return 170
     elif speed < 30:
-        fine = 230
+        return 230
     elif speed < 35:
-        fine = 300
+        return 300
     elif speed < 40:
-        fine = 400
+        return 400
     elif speed < 45:
-        fine = 510
+        return 510
     else:
-        fine = 630
-    return fine
+        return 630
