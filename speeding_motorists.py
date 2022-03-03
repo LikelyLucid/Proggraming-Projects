@@ -36,3 +36,4 @@ while True:
     drivers[name] = speed
     amount_due = check_total_speed(speed)
     print("{} to be fined ${}".format(name, amount_due))
+    print("############################################")
