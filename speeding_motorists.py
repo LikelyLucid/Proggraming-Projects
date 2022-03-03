@@ -1,5 +1,7 @@
 criminals = ["James Wilson", "Helga Norman", "Zachary Conroy"]
 drivers = {}
+
+
 def check_total_speed(speed):
     if speed < 10:
         return 30
@@ -19,12 +21,16 @@ def check_total_speed(speed):
         return 510
     else:
         return 630
+
+
 def interger_checker(question):
     try:
         return int(input(question))
     except ValueError:
         print("Please enter an integer")
         return interger_checker(question)
+
+
 while True:
     print("############################################")
     name = input("enter the drivers full name: ").capitalize()
