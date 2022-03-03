@@ -46,3 +46,5 @@ while True:
     print("{} to be fined ${}".format(name, amount_due))
     print("Enter $ to exit Input Mode")
     print("############################################")
+
+print()
