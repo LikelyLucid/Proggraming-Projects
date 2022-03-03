@@ -20,4 +20,5 @@ def check_total_speed(speed):
     else:
         return 630
 
-wh
+while True:
+    
