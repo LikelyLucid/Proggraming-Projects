@@ -43,4 +43,5 @@ while True:
     amount_due = check_total_speed(speed)
     total_fines += amount_due
     print("{} to be fined ${}".format(name, amount_due))
+    print
     print("############################################")
