@@ -19,4 +19,23 @@ fines:
 >= 45 km/h = $630
 """
 
-def check_total_
+def check_total_speed(speed_limit, speed):
+    if speed < 10:
+        fine = 30
+    elif speed < 15:
+        fine = 80
+    elif speed < 20:
+        fine = 120
+    elif speed < 25:
+        fine = 170
+    elif speed < 30:
+        fine = 230
+    elif speed < 35:
+        fine = 300
+    elif speed < 40:
+        fine = 400
+    elif speed < 45:
+        fine = 510
+    else:
+        fine = 630
+    return fine
