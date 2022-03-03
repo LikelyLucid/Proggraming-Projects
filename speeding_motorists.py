@@ -18,7 +18,7 @@ fines:
 
 >= 45 km/h = $630
 """
-criminals = ["James Wilson", "Helga Norman", ""]
+criminals = ["James Wilson", "Helga Norman", "Zachary Conroy"]
 
 def check_total_speed(speed):
     if speed < 10:
