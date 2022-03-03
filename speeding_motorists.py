@@ -19,3 +19,5 @@ def check_total_speed(speed):
         return 510
     else:
         return 630
+
+wh
