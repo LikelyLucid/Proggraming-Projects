@@ -30,6 +30,7 @@ while True:
 
     if name in criminals:
         print("WARRENT TO ARREST {}".format(name))
-    
+
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
+    
