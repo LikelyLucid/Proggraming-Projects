@@ -21,4 +21,4 @@ def check_total_speed(speed):
         return 630
 
 while True:
-    
+    name = input
