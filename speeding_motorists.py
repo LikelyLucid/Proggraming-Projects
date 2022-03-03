@@ -33,4 +33,4 @@ while True:
 
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
-    
+    amount
