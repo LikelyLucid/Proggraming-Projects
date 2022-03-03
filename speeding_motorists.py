@@ -1,6 +1,6 @@
 criminals = ["James Wilson", "Helga Norman", "Zachary Conroy"]
 drivers = {}
-total
+total_fines = 0
 
 def check_total_speed(speed):
     if speed < 10:
