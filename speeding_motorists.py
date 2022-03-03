@@ -19,6 +19,6 @@ def check_total_speed(speed):
         return 510
     else:
         return 630
-def interger_checker
+def interger_checker(question)
 while True:
     name = input("enter the drivers full name: ")
