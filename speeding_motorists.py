@@ -22,4 +22,4 @@ def check_total_speed(speed):
 
 while True:
     name = input("enter the drivers full name: ")
-    while True
+    while True:
