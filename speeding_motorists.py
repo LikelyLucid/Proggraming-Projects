@@ -26,6 +26,7 @@ def interger_checker(question):
         print("Please enter an integer")
         return interger_checker(question)
 while True:
+    print("")
     name = input("enter the drivers full name: ").capitalize()
 
     if name in criminals:
