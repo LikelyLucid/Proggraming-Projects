@@ -33,4 +33,5 @@ while True:
 
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
-    amount
+    amount_due = check_total_speed(speed)
+    
