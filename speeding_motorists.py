@@ -1,5 +1,5 @@
 criminals = ["James Wilson", "Helga Norman", "Zachary Conroy"]
-
+drivers = {}
 def check_total_speed(speed):
     if speed < 10:
         return 30
