@@ -34,4 +34,4 @@ while True:
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
     amount_due = check_total_speed(speed)
-    print("The fine is ${}".format(amount_due))
+    
