@@ -47,4 +47,4 @@ while True:
     print("Enter $ to exit Input Mode")
     print("############################################")
 
-print()
+print("The total fines is ${}".format(total_fines))
