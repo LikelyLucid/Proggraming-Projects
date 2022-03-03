@@ -23,3 +23,8 @@ def check_total_speed(speed):
 while True:
     name = input("enter the drivers full name: ")
     while True:
+        speed = int(input("enter the speed: "))
+        if speed < 0:
+            print("the speed cannot be negative")
+        else:
+            break
