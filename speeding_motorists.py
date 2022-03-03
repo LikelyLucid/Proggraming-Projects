@@ -35,7 +35,7 @@ while True:
     print("############################################")
     name = input("enter the drivers full name: ").capitalize()
     if name == "$":
-        
+        break
     if name in criminals:
         print("WARRENT TO ARREST - {}".format(name))
 
