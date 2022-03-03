@@ -27,5 +27,6 @@ def interger_checker(question):
         return interger_checker(question)
 while True:
     name = input("enter the drivers full name: ")
+    if name in 
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
