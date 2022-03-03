@@ -1,4 +1,3 @@
-
 criminals = ["James Wilson", "Helga Norman", "Zachary Conroy"]
 
 def check_total_speed(speed):
