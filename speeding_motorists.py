@@ -34,7 +34,8 @@ def interger_checker(question):
 while True:
     print("############################################")
     name = input("enter the drivers full name: ").capitalize()
-
+    if name == "$":
+        
     if name in criminals:
         print("WARRENT TO ARREST - {}".format(name))
 
