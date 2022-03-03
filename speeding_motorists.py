@@ -19,4 +19,4 @@ fines:
 >= 45 km/h = $630
 """
 
-def check
+def check_total
