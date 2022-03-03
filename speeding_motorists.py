@@ -28,6 +28,6 @@ def interger_checker(question):
 while True:
     name = input("enter the drivers full name: ").capitalize()
     if name in criminals:
-        print("WARRENT TO ARREST {}")
+        print("WARRENT TO ARREST {}".format(name))")
     speed = interger_checker("enter the speed: ")
     drivers[name] = speed
