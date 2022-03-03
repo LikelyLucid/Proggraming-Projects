@@ -18,7 +18,7 @@ fines:
 
 >= 45 km/h = $630
 """
-
+criminals
 
 def check_total_speed(speed):
     if speed < 10:
