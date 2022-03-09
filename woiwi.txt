@@ -1,1 +1,3 @@
 Text:
+Functionality involves ensuring that the Movie program works as expected. It should work for expected, boundary and unexpected cases. For example, my program asks how many tickets a user wants . It needs to work for a 'sensible' answer like "2" and it should also accept "1" (low valid) and it should not crash if users put in "0" (too low), text or a decimal.
+Functionality matters because if a program does crash or gives incorrect output, users will become frustrated. Programs that don't work correctly ae of limited use and in real life, if a program does not function it could cause users harm and/or damage the reputation of the developer.
